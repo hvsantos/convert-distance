@@ -1,0 +1,37 @@
+body {
+  background-color: #738fa7;
+}
+.main-wrapper,
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.main-wrapper {
+  padding-top: 50px;
+}
+.main-title,
+.main-subtitle {
+  color: #071330;
+  font-family: 'Fredoka', Arial, Helvetica, sans-serif;
+}
+.main-title {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.main-subtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.main-subtitle.-input {
+  font-size: 1.3rem;
+  text-align: center;
+}
+.main-subtitle.-answer {
+  font-size: 1.8rem;
+}
+.container-answer {
+  padding: 40px;
+}
