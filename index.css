@@ -35,3 +35,18 @@ body {
 .container-answer {
   padding: 40px;
 }
+.main-subtitle.-button {
+  font-size: 1.6rem;
+}
+.main-button {
+  height: 2.5rem;
+  padding: 5px;
+  padding-bottom: 10px;
+  background-color: #e9a200;
+  border-radius: 5px;
+  transition: transform 100ms;
+}
+.main-button:hover {
+  background-color: #fbdd00;
+  transform: scale(1.3);
+}
